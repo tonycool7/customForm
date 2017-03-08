@@ -32,7 +32,7 @@
 
 				<div class="form-block">
 					<div class="form-block-header">
-
+						<h3>Custom Horizontal form</h3>
 					</div>
 					<div class="form-block-body">
 						<h3>Make your choice</h3>
