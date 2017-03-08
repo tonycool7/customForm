@@ -13,7 +13,7 @@
 			<div class="layout-padding">
 				<div class="form-block">
 					<div class="form-block-header">
-
+					<h3>Custom vertical form</h3>
 					</div>
 					<div class="form-block-body">
 						<h3>Make your choice</h3>
@@ -24,6 +24,22 @@
 							<li data-value="4"><span></span><label>choice 4</label></li>
 							<li data-value="5"><span></span><label>choice 5</label></li>
 							<li data-value="6"><span></span><label>choice 6</label></li>
+						</ul>
+
+						<button>Submit</button>
+					</div>
+				</div>
+
+				<div class="form-block">
+					<div class="form-block-header">
+
+					</div>
+					<div class="form-block-body">
+						<h3>Make your choice</h3>
+						<ul class="horizontal-list">
+							<li data-value="1" class="active"> <span></span><label>choice 1</label></li>
+							<li data-value="2"><span></span><label>choice 2</label></li>
+							<li data-value="3"><span></span><label>choice 3</label></li>
 						</ul>
 
 						<button>Submit</button>

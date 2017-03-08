@@ -16,11 +16,24 @@ body, html{
 		background-color: CornflowerBlue;
 	}
 
+	.form-block-header{
+		h3{
+			margin: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+
 	.form-block-body{
 		border: 1px solid grey;
 		padding: 20px;
 		button{
+			display: block;
+			width: 200px;
+			margin: auto;
 			height: 50px;
+			cursor: pointer;
 			background-color: white;
 			border: 2px solid black;
 			padding: 10px;
@@ -51,10 +64,22 @@ body, html{
 			border-radius: 100%;
 			border: 1px solid black;
 		}
+
+		label{
+			margin-left: 10px;
+		}
 	}
-	
+
 	.active span{
 		background: url(../images/correct.png) no-repeat center 0;
 		background-size: cover;
+	}
+}
+
+.horizontal-list{
+	.vertical-list;
+	li{
+		display: inline-block;
+		width: 150px;
 	}
 }
